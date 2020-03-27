@@ -1,4 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int i, j, k, a, b, c, d, jumlah = 0;
+int x, y, z, p, q, r, s, j, h, jumlah = 0;
+int hasil[50][50];
+
+
+void hasill(int *j)
+void hasill(int *h)
+{
+  for(int j = 0; j < s; j++){
+        cout << ((hasil+*h)+j) << "\t";
+      }
+      cout << endl;
+}
