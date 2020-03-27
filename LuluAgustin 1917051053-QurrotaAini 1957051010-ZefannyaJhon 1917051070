@@ -18,7 +18,7 @@ void print(int p, int q, int hasil[][50])
 
  int main(){
 
-  cout << " \t >>>>>>>>>>>PERKALIAN MATRIKS<<<<<<<<<<<<<" << endl << endl;
+  cout << " \t ~~~~~~~~~~PERKALIAN MATRIKS~~~~~~~~~~ " << endl << endl;
 
   int matriks1[50][50];
   int (*pM1)[50] = matriks1;
