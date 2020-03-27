@@ -24,3 +24,6 @@ int main(){
   int (*pM1)[50] = matriks1;
   int matriks2[50][50];
   int (*pM2)[50] = matriks2;
+  
+  tes
+  tes
