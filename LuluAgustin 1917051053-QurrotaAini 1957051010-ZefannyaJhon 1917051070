@@ -24,3 +24,23 @@ void print(int p, int q, int hasil[][50])
   int (*pM1)[50] = matriks1;
   int matriks2[50][50];
   int (*pM2)[50] = matriks2;
+
+  cout << "Masukkan jumlah baris matriks pertama: ";
+  cin >> p;
+  cout << "Masukkan jumlah kolom matriks pertama: ";
+  cin >> q;
+  cout << "Masukkan jumlah baris matriks kedua: ";
+  cin >> r;
+  cout << "Masukkan jumlah kolom matriks kedua: ";
+  cin >> s;
+
+    if(q != r){
+		cout << "Matriks tidak dapat dikalikan satu sama lain"<<endl;
+	}else {
+
+		cout << "Masukkan elemen matriks pertama: "<<endl;
+		for(int i = 0; i < p; i++){
+			for(j = 0; j < q; j++){
+				cin >> ((pM1+i)+j);
+			}
+		}
