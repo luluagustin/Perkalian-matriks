@@ -13,3 +13,14 @@ void hasill(int *h)
       }
       cout << endl;
 }
+int main(){
+ 	
+ 
+{
+
+    cout << " \t >>>>>>>>>>>PERKALIAN MATRIKS<<<<<<<<<<<<<" << endl << endl;
+
+  int matriks1[50][50];
+  int (*pM1)[50] = matriks1;
+  int matriks2[50][50];
+  int (*pM2)[50] = matriks2;
